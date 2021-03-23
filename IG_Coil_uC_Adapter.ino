@@ -41,7 +41,7 @@ void speedCalc() {
   start = micros();
 
   //RPM = ((120 * (1000000 / elapsed)) / numOfCyl); //MS to RPM +-30RPM Res
-  RPM = ((12*(10,000,000/elapsed)) /numOfCyl); //uS  +- 3RPM resolution
+  RPM = ((12*(10,000,000/elapsed)) /numOfCyl); //uS  +- 3RPM resolution (remove comas, they are there for representation of the math)
 
 }
 
